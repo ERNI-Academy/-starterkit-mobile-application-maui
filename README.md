@@ -10,7 +10,7 @@ ERNI Academy mobile boilerplate to start a cross-platform or native mobile appli
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-[![Build Maui app](https://github.com/ERNI-Academy/starterkit-mobile-application-maui/actions/workflows/CI-maui.Forms.Android.yml/badge.svg?branch=main)](https://github.com/ERNI-Academy/starterkit-mobile-application-maui/actions/workflows/CI-MAUI.yml)
+[![Build MAUI app](https://github.com/ERNI-Academy/starterkit-mobile-application-maui/actions/workflows/CI-MAUI.yml/badge.svg)](https://github.com/ERNI-Academy/starterkit-mobile-application-maui/actions/workflows/CI-MAUI.yml)
 
 [![Sonar Cloud Scan](https://github.com/ERNI-Academy/starterkit-mobile-application-maui/actions/workflows/CI-SonaCloud-Scan.yml/badge.svg)](https://github.com/ERNI-Academy/starterkit-mobile-application-maui/actions/workflows/CI-SonaCloud-Scan.yml)
 
