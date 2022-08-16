@@ -36,10 +36,10 @@ jobs:
           dotnet workload install android --ignore-failed-sources
           dotnet workload install maui --ignore-failed-sources
       - name: Restore Dependencies
-        run: dotnet restore ./src/CrossPlatform/MAUI/Erni.Mobile.MAUI/Erni.Mobile.MAUI.csproj
+        run: dotnet restore ./src/Erni.Mobile/Erni.Mobile.csproj
 
       - name: Build MAUI Android
-        run: dotnet build ./src/CrossPlatform/MAUI/Erni.Mobile.MAUI/Erni.Mobile.MAUI.csproj -c Release -f net6.0-android --no-restore
+        run: dotnet build ./src/Erni.Mobile/Erni.Mobile.csproj -c Release -f net6.0-android --no-restore
 
 # MAUI Windows Build
   build-windows:
@@ -69,10 +69,10 @@ jobs:
         run: |
           dotnet workload install maui --ignore-failed-sources --include-previews
       - name: Restore Dependencies
-        run: nuget restore ./src/CrossPlatform/MAUI/Erni.Mobile.MAUI/Erni.Mobile.MAUI.csproj -Recursive
+        run: nuget restore ./src/Erni.Mobile/Erni.Mobile.csproj -Recursive
 
       - name: Build MAUI Windows
-        run: msbuild src/CrossPlatform/MAUI/Erni.Mobile.MAUI/Erni.Mobile.MAUI.csproj /p:Configuration=Release /t:Rebuild /p:TargetFramework=net6.0-windows10.0.19041.0
+        run: msbuild src/Erni.Mobile/Erni.Mobile.csproj /p:Configuration=Release /t:Rebuild /p:TargetFramework=net6.0-windows10.0.19041.0
 
 # # maui ios build
   # build-ios:
@@ -93,10 +93,10 @@ jobs:
           # dotnet workload install ios --ignore-failed-sources
           # dotnet workload install maui --ignore-failed-sources
       # - name: restore dependencies
-        # run: dotnet restore ./src/crossplatform/maui/erni.mobile.maui/erni.mobile.maui.csproj
+        # run: dotnet restore ./src/erni.mobile/erni.mobile.csproj
 
       # - name: build maui ios
-        # run: dotnet build ./src/crossplatform/maui/erni.mobile.maui/erni.mobile.maui.csproj -c release -f net6.0-ios --no-restore
+        # run: dotnet build ./src/erni.mobile/erni.mobile.csproj -c release -f net6.0-ios --no-restore
 
 # MAUI MacCatalyst Build
   build-mac:
@@ -117,7 +117,7 @@ jobs:
           dotnet workload install maccatalyst --ignore-failed-sources
           dotnet workload install maui --ignore-failed-sources
       - name: Restore Dependencies
-        run: dotnet restore ./src/CrossPlatform/MAUI/Erni.Mobile.MAUI/Erni.Mobile.MAUI.csproj
+        run: dotnet restore ./src/Erni.Mobile/Erni.Mobile.csproj
 
       - name: Build MAUI MacCatalyst
-        run: dotnet build ./src/CrossPlatform/MAUI/Erni.Mobile.MAUI/Erni.Mobile.MAUI.csproj -c Release -f net6.0-maccatalyst --no-restore
+        run: dotnet build ./src/Erni.Mobile/Erni.Mobile.csproj -c Release -f net6.0-maccatalyst --no-restore
