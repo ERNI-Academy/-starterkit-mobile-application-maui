@@ -41,12 +41,12 @@ Then you can use in a label like this:
 
 ### The project contains the following projects
 
-* **Erni.Mobile.MAUI**: this project contains all the needed functionalities to run in any platform.
+* **Erni.Mobile**: this project contains all the needed functionalities to run in any platform.
 
 ### The folder structure
 
 . \
-├── **Erni.Mobile.MAUI** \
+├── **Erni.Mobile** \
  &nbsp;&emsp;├── 📁 Properties: Contains all custom controls \
  &nbsp;&emsp;│&emsp;&emsp;└── 📄 launchSettings.json: Stores configuration information. \ 
  &nbsp;&emsp;├── 📂 Extensions: Contains all custom extension \
