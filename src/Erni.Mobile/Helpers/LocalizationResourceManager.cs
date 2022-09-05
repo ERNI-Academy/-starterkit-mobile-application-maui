@@ -39,6 +39,8 @@ internal class LocalizationResourceManager : INotifyPropertyChanged
         {
             Thread.CurrentThread.CurrentUICulture = language;
             Thread.CurrentThread.CurrentCulture = language;
+            CultureInfo.DefaultThreadCurrentCulture = language;
+            CultureInfo.DefaultThreadCurrentUICulture = language;
             AppResources.Culture = language;
             Preferences.Set(LanguageKey, language.TwoLetterISOLanguageName);
             App.Current.MainPage = new MainPage();
