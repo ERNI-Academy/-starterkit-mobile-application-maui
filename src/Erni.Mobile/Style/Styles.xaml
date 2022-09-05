@@ -369,20 +369,20 @@
         <Setter Property="Shell.UnselectedColor" Value="{AppThemeBinding Light={StaticResource Gray200LightTheme}, Dark={StaticResource Gray200DarkTheme}}" />
         <Setter Property="Shell.NavBarHasShadow" Value="False" />
         <Setter Property="Shell.TabBarBackgroundColor" Value="{AppThemeBinding Light={StaticResource BackGroundLightTheme}, Dark={StaticResource BackGroundDarkTheme}}" />
-        <Setter Property="Shell.TabBarForegroundColor" Value="{AppThemeBinding Light={StaticResource PrimaryLightTheme}, Dark={StaticResource WhiteDarkTheme}}" />
+        <Setter Property="Shell.TabBarForegroundColor" Value="{AppThemeBinding Light={StaticResource WhiteLightTheme}, Dark={StaticResource WhiteDarkTheme}}" />
         <Setter Property="Shell.TabBarTitleColor" Value="{AppThemeBinding Light={StaticResource TextLightTheme}, Dark={StaticResource TextDarkTheme}}" />
         <Setter Property="Shell.TabBarUnselectedColor" Value="{AppThemeBinding Light={StaticResource Gray900LightTheme}, Dark={StaticResource Gray200DarkTheme}}" />
     </Style>
 
     <Style TargetType="NavigationPage">
-        <Setter Property="BarBackgroundColor" Value="{AppThemeBinding Light={StaticResource PrimaryLightTheme}, Dark={StaticResource Gray950DarkTheme}}" />
+        <Setter Property="BarBackgroundColor" Value="{AppThemeBinding Light={StaticResource WhiteLightTheme}, Dark={StaticResource Gray950DarkTheme}}" />
         <Setter Property="BarTextColor" Value="{AppThemeBinding Light={StaticResource Gray200LightTheme}, Dark={StaticResource WhiteDarkTheme}}" />
         <Setter Property="IconColor" Value="{AppThemeBinding Light={StaticResource Gray200LightTheme}, Dark={StaticResource WhiteDarkTheme}}" />
     </Style>
 
     <Style TargetType="TabbedPage">
         <Setter Property="BarBackgroundColor" Value="{AppThemeBinding Light={StaticResource WhiteLightTheme}, Dark={StaticResource Gray950DarkTheme}}" />
-        <Setter Property="BarTextColor" Value="{AppThemeBinding Light={StaticResource PrimaryLightTheme}, Dark={StaticResource WhiteDarkTheme}}" />
+        <Setter Property="BarTextColor" Value="{AppThemeBinding Light={StaticResource WhiteLightTheme}, Dark={StaticResource WhiteDarkTheme}}" />
         <Setter Property="UnselectedTabColor" Value="{AppThemeBinding Light={StaticResource Gray200LightTheme}, Dark={StaticResource Gray950DarkTheme}}" />
         <Setter Property="SelectedTabColor" Value="{AppThemeBinding Light={StaticResource Gray950LightTheme}, Dark={StaticResource Gray200DarkTheme}}" />
     </Style>
