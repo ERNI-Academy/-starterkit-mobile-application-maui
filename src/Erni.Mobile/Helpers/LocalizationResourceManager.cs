@@ -65,7 +65,7 @@ internal class LocalizationResourceManager : INotifyPropertyChanged
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(null));
         }
-        catch (Exception ex)
+        catch
         {
             //Ignore exception
         }
